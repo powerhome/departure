@@ -40,6 +40,10 @@ module PerconaMigrator
       --recursion-method=none
       --alter-foreign-keys-method=auto
       --no-check-alter
+      --critical-load
+      Threads_running=10000000000
+      --max-load
+      Threads_running=20
     )
 
     # Constructor
